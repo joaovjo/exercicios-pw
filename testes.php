@@ -3,7 +3,6 @@
 $valor = 0;
 $valor2 = 0;
 
-
 do {
     $valor = readline("Digita saporra de valor: ");
     $valor2 = readline("Digita saporra de valor 2: ");
@@ -12,7 +11,6 @@ do {
 $resultado = $valor / $valor2;
 
 echo "O resultado é $resultado".PHP_EOL;
-
 
 while($valor2==0) {
     $valor = readline("Digita saporra de valor: ");
